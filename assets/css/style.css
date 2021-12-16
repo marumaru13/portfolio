@@ -1,0 +1,218 @@
+.content{
+    padding: 80px 100px;
+    display: flex;
+    justify-content: end;
+}
+
+.menu{
+    padding-right: 30px;
+}
+.insta{
+    width: 20px;
+    height: auto;
+}
+a {
+    text-decoration:none; 
+    color: black; 
+}
+  
+.content2{
+    background-image: url(../img/top5.jpeg);
+    background-size: cover;
+    width: auto;
+    height: 400px;
+
+}
+/* .main_img2{
+    width: 100px;
+    height: 800px;
+    background-size: cover;
+    background-image: url(../img/top2.jpg);
+} */
+
+h1{
+    padding: 80px 150px;
+    text-align: end;
+    font-size: 30px;
+}
+p,h1,h2{
+    font-family: "YuMincho、游明朝体";
+}
+
+.contents{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 80px;
+    
+}
+.contents2{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+.box1{
+    width: 380px;
+    height: 380px;
+    border-radius: 20%;
+    background-color: darkcyan;
+    overflow: hidden;
+}
+.box1 img{
+    max-width: 100%;
+}
+
+.box2{
+    width: 800px;
+    height: 380px;
+    background-color: rgb(62, 63, 146);
+    background: cover;
+    color: white;
+}
+.prof{
+
+}
+ 
+.box3{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-color: wheat;
+    overflow: hidden;
+}
+
+.box3 img{
+    width: 100%;
+    transition-duration: 1.0s;
+}
+.box3:hover img{
+    transform: scale(1.2);
+    transition-duration: 1.0s;
+}
+
+form{
+    padding-right: 140px;
+    padding-bottom: 100px;
+}
+
+input,label{
+    font-size: 20px;
+    margin: 10px;
+}
+  
+#name{
+    width: 150px;
+    text-align: center;
+}
+
+#email{
+    width: 250px;
+}
+
+#content2{
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+}
+.submit{
+    width:80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (max-width: 1000px){
+    /* .box1{
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .box1 img{
+        max-width: 100%;
+    } */
+
+
+}
+
+
+@media screen and (max-width: 780px){
+.content{
+    padding: 5px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.contents{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.box2{
+    width: 380px;
+    height: 600px;
+    margin-top: 20px;
+}
+.box3{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
+h1{
+    padding: 50px 60px;
+    text-align: end;
+    font-size: 25px;
+}
+
+form{
+    padding: 0%;
+}
+}
+@media screen and (max-width: 380px){
+    .box1{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .box1 img{
+        max-width: 100%;
+    }
+    
+    
+    .box2{
+        width: 300px;
+        height: 500px;
+        margin-top: 20px;
+    }
+    
+    input,label{
+        font-size: 15px;
+        margin: 10px;
+    }
+      
+    #name{
+        width: 110px;
+        text-align: center;
+    }
+    
+    #email{
+        width: 200px;
+    }
+    
+    #content2{
+        width: 250px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .submit{
+        width:80px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
